@@ -83,7 +83,7 @@ export default {
       formData.append('file', file)
 
       try {
-        const response = await axios.post('http://localhost:5000/upload', formData, {
+        const response = await axios.post('https://ai-pdf-aebx.onrender.com/upload', formData, {
           headers: {
             'Content-Type': 'multipart/form-data'
           }
@@ -104,7 +104,7 @@ export default {
       isLoading.value = true
      error.value = ''
       try {
-        const response = await axios.post('http://localhost:5000/ask', {
+        const response = await axios.post('https://ai-pdf-aebx.onrender.com/ask', {
           filename: uploadedFile.value,
           question: question.value
         })
