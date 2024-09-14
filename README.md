@@ -1,4 +1,7 @@
-# vue-tut
+# AI app that reads uploaded PDF's
+
+
+To run locally clone both this and ai-pdf repositories,this is just the frontend!!
 
 This template should help get you started developing with Vue 3 in Vite.
 
